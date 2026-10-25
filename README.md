@@ -34,13 +34,13 @@ The onboard LD2 LED is connected to GPIO pin PA5. No external LED or additional 
 
 ![LD2 Pinout and Configuration](ld2_pinout&configuration_window_image.jpeg)
 
-### STM32CubeIDE Project Explorer
-
-![STM32CubeIDE Project Explorer](ld2_stm32cubeide_project-explorer_window_image.jpeg)
-
 ### STM32CubeMX Project Manager Setup
 
 ![STM32CubeMX Project Manager Setup](ld2_stm32cubemx-projectmanager_setup_image.jpeg)
+
+### STM32CubeIDE Project Explorer
+
+![STM32CubeIDE Project Explorer](ld2_stm32cubeide_project-explorer_window_image.jpeg)
 
 ##  Program Logic
 
@@ -51,11 +51,11 @@ The onboard LD2 LED is connected to GPIO pin PA5. No external LED or additional 
 5. Wait for 1000 milliseconds using `HAL_Delay()`.
 6. Repeat continuously inside the `while(1)` loop.
 
-##  Hardware Output
+##  Hardware Output Image
 
 The following image shows the STM32 NUCLEO-F446RE board during the LED blink operation.
 
-![STM32 NUCLEO-F446RE Board Output](ld2_stm32f446re-board_output_image.jpeg)
+![STM32 NUCLEO-F446RE Board Output](stm32-f446re_led_output_image.jpeg)
 
 ##  Demonstration Video
 
